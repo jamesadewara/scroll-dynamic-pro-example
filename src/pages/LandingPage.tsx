@@ -1,5 +1,4 @@
 import React from 'react';
-import { ScrollSection, ScrollTransform } from 'scroll-dynamics-pro';
 import { HorizontalGallery } from '../components/HorizontalGallery';
 import { ParallaxHero } from '../components/ParallaxHero';
 import { AdvancedTransforms } from '../components/AdvancedTransforms';
@@ -11,6 +10,7 @@ import { VelocitySkewSection } from '../components/VelocitySkewSection';
 import { GridShowcase } from '../components/GridShowcase';
 import { ScrollytellingShowcase } from '../components/ScrollytellingShowcase';
 import { CosmicJourney } from '../components/CosmicJourney';
+import { ScrollSection, ScrollTransform } from 'scroll-dynamics-pro';
 
 export const LandingPage: React.FC = () => {
     return (
