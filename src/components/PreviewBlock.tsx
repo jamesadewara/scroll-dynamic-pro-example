@@ -74,7 +74,7 @@ export const PreviewBlock: React.FC<PreviewBlockProps> = ({ code, title, childre
                             backgroundSize: '20px 20px'
                         }}
                     >
-                        <ScrollProvider containerRef={containerRef}>
+                        <ScrollProvider>
                             <div style={{ width: '100%', position: 'relative', zIndex: 1, minHeight: '200vh', paddingBottom: '50vh' }}>
                                 <div style={{
                                     paddingTop: sticky ? '0' : '50px',
